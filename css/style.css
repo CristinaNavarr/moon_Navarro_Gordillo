@@ -1,17 +1,21 @@
-ul {
+div {
     list-style-type: none;
     margin: 0;
-    padding: 15px;
+    padding: 0;
     overflow: hidden;
     background-color: rgb(4, 72, 134);
 }
-
-
 a {
-    float: left;
+    float:left;
     display: block;
     color: white;
     text-align: center;
     padding: 15px;
     text-decoration: none;
+    
+}
+menu a.index, .menu a:hover {
+    padding: 15px;
+    margin: 0px;
+    background: #3987fc;
 }
