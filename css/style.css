@@ -1,11 +1,11 @@
-div {
+div.container{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(4, 72, 134);
 }
-a {
+a{
     float:left;
     display: block;
     color: white;
@@ -20,6 +20,47 @@ menu a.index, .menu a:hover {
     background: #3987fc;
 }
 
+body{
+    background-image: url("../img/moon.jpg");
+    background-image: no-repeat;
+    background-image: center;
+}
 
-@media screen and (max-width: 400px) {  
+text.container2{
+    text-align: center;
+    background-color: #3987fc;
+    color: #3987fc;
+}
+
+img{
+    width: 30%;
+}
+*{
+    box-sizing: border-box;
+    background-image: no-repeat;
+}
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    background-image: no-repeat;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+    background-image: no-repeat;
+}
+.column img{
+    margin-top: 5px;
+    background-image: no-repeat;
+}
+
+@media (max-width: 600px) {  
+    .column{
+        flex: 100%;
+        padding: 5px;
+    }
+}
+footer{
+    
 }
