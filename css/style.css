@@ -19,3 +19,7 @@ menu a.index, .menu a:hover {
     margin: 0px;
     background: #3987fc;
 }
+
+
+@media screen and (max-width: 400px) {  
+}
